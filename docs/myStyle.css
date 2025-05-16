@@ -1,0 +1,99 @@
+/* CSS-Stylesheet */
+
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:@900&display=swap');
+
+
+
+/* Für blauen Rand / Hintergrund: */
+body{
+    background-color: #2f04ee;
+}
+
+.Inhalt{
+    font-family: "Nunito Sans";
+    width:90%;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color:white;
+    padding:20px;
+  }
+
+
+
+/* Menüleiste: */
+.menu {
+    width: 500px;
+}
+
+.menu a {
+    background-color: #ececec;
+    color: black;
+    padding: 12px;
+    text-decoration: none; /* Keine Unterstreichung bei Links */
+}
+
+.menu a:hover {
+    background-color: #c6c6c6;
+}
+  
+.menu a.active {
+    background-color: #e4dc3c;
+    color: white;
+}
+
+
+/* Für Überschriften: */
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
+
+h2{
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+
+#Diskografie h2{
+    font-size: 3em;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Für Bilder: */
+.bild{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px
+  }
+
+
+/* Für Bild neben Text: */
+.container {
+    overflow: hidden;
+}
+
+.container img {
+    float: left;
+    height: 200px;
+    width: auto;
+    margin-right: 15px;
+}
+
+.container p {
+    margin: 0;
+}
+
+  
+
+
